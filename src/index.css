@@ -3,35 +3,17 @@
 @tailwind utilities;
 
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #08371e 21.43%,
-    #0a735c 50.63%,
-    #522286 100%,
-    #8b7ca3 117.04%
-  );
+  background: linear-gradient(90deg, rgba(10,115,92,1) 1%, rgba(82,34,134,0.9528186274509804) 51%, rgba(139,124,163,1) 91%);
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #8b7ca3 21.43%,
-    #522286 50.63%,
-    #0a735c 100%,
-    #08371e 117.04%
-  );
+  background: linear-gradient(90deg, rgba(139,124,163,1) 0%, rgba(82,34,134,0.9528186274509804) 51%, rgba(10,115,92,1) 100%);
 }
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #8b7ca3 21.43%,
-    #522286 50.63%,
-    #0a735c 100%,
-    #08371e 117.04%
-  );
+  background: linear-gradient(90deg, rgba(139,124,163,1) 0%, rgba(82,34,134,0.9528186274509804) 51%, rgba(10,115,92,1) 100%);
 }
 
 .active {
