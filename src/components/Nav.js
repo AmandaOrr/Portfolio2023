@@ -7,7 +7,8 @@ import {BsClipboardData, BsBriefcase, BsChatSquareText} from 'react-icons/bs';
 import {Link} from 'react-scroll';
 
 const Nav = () => {
-  return <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+  return (
+    <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
     <div class="container mx-auto">
     {/* Nav Inner */}
     <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
@@ -16,6 +17,7 @@ const Nav = () => {
         activeClass='active'
         smooth={true}
         spy={true} 
+        offset={-100} 
         className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
       >
         <BiHomeAlt />
@@ -24,7 +26,8 @@ const Nav = () => {
         to="about"
         activeClass='active'
         smooth={true}
-        spy={true}  
+        spy={true}
+        offset={-100}  
         className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
       >
         <BiUser />
@@ -33,7 +36,8 @@ const Nav = () => {
         to="work" 
         activeClass='active'
         smooth={true}
-        spy={true}  
+        spy={true} 
+        offset={-100} 
         className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
       >
         <BsBriefcase />
@@ -43,6 +47,7 @@ const Nav = () => {
         activeClass='active'
         smooth={true}
         spy={true} 
+        offset={-100}
         className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
       >
         <BsChatSquareText />
@@ -50,6 +55,7 @@ const Nav = () => {
     </div>
     </div>
   </nav>
+  )
 };
 
 export default Nav;

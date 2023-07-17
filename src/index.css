@@ -45,9 +45,27 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    background-image: linear-gradient(90deg, rgba(139, 124, 163, 1) 0%, rgba(82, 34, 134, 0.9528186274509804) 51%, rgba(10, 115, 92, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-family: 'font-primary';
+    transition: background-color 0.3s ease;
+    
+  }
+  .text-gradient:hover {
+    background-image: linear-gradient(90deg, rgba(10, 115, 92, 1) 0%, rgba(82, 34, 134, 0.9528186274509804) 51%, rgba(139, 124, 163, 1) 100%);
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+
+
+
+
+
+
+
