@@ -96,6 +96,9 @@ const Banner = () => {
               <a href="#">
                 <FaLinkedin />
               </a>
+              <a href="#">
+                <FaArtstation />
+              </a>
             </motion.div>
           </div>
 

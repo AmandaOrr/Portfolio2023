@@ -1,10 +1,12 @@
 import React from "react";
+//importing link
+// import { Link } from "react-router-dom";
 //motion
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 //images
-import Img1 from "../assets/portfolio-img1.png";
+import Img1 from "../assets/anigen.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
 
@@ -32,6 +34,7 @@ const Work = () => {
               </p>
               <button className="btn btn-sm">View All Projects</button>
             </div>
+            {/* 1 */}
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
@@ -44,11 +47,11 @@ const Work = () => {
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-accent">Category (UI/UX)</span>
+                <span className="text-accent">(Vue.js/YouTube API)</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+              <a href="https://ani-gen.netlify.app/" target="_blank"><span className="text-3xl text-white">Ani-Gen</span></a>
               </div>
             </div>
           </motion.div>
@@ -82,6 +85,7 @@ const Work = () => {
               </div>
             </div>
 
+            {/* 3 */}
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
