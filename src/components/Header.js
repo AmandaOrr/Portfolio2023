@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 //imports
 import Logo from '../assets/logoAO.svg';
 
@@ -12,7 +13,7 @@ const Header = () => {
           <img src={Logo} alt="" />
         </a>
         {/* button */}
-        <button className="btn btn-sm">Work with me</button>
+        <button className="btn btn-sm"><a href="#contact">Work with me</a></button>
       </div>
     </div>
 

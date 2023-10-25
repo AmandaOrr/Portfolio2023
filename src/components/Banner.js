@@ -49,8 +49,6 @@ const Banner = () => {
                   2000,
                   "Designer",
                   2000,
-                  "Artist",
-                  2000,
                   "Creative Thinker",
                   2000,
                 ]}
@@ -67,8 +65,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 mx-w-lg mx-auto "
             >
-              Eat plants, meow, and throw up because i ate plants stand with
-              legs in litter box, but poop outside oooo! dangly balls!
+              I am a passionate and detail-oriented Frontend Developer
+              with expertise in HTML5/CSS, JavaScript, and React.js
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -77,10 +75,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-accent btn-link font-primary">
-                My Portfolio
-              </a>
+              <button className="btn btn-lg"><a href="#contact">Contact Me</a></button>
             </motion.div>
             {/* socials */}
             <motion.div
@@ -90,14 +85,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="https://github.com/AmandaOrr">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/amanda-orr-485210226/">
                 <FaLinkedin />
-              </a>
-              <a href="#">
-                <FaArtstation />
               </a>
             </motion.div>
           </div>

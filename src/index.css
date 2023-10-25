@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
 .btn {
   background: linear-gradient(90deg, rgba(10,115,92,1) 1%, rgba(82,34,134,0.9528186274509804) 51%, rgba(139,124,163,1) 91%);
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
@@ -61,6 +70,8 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+
 
 
 

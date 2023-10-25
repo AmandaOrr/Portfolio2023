@@ -31,8 +31,8 @@ const About = () => {
             viewport={{once: false, amount: 0.3}}
             className='flex-1'>
             <h2 className='h2 text-accent '>About me.</h2>
-            <h3 className='h3 mb-4'>I'm a Front-end Developer, passionate about design. </h3>
-            <p className='mb-6'>Meow and walk away lounge in doorway and if it fits, i sits. Find empty spot in cupboard and sleep all day eat too much then proceed to regurgitate all over living room carpet while humans eat dinner lick human with sandpaper tongue so destroy couch as revenge</p>
+            <h3 className='h3 mb-4'>Front-end Developer, passionate about design. </h3>
+            <p className='mb-6'>I am focused on creating visually appealing and user-friendly web applications, and well-versed in UI/UX design and responsive web design.</p>
             {/* stats? maybe certifications Will CHANGE */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               {/* counter 1 */}
@@ -50,7 +50,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-accent mb-2'>
                   {
                     inView ? 
-                    <CountUp start={0} end={161} duration={3} /> : null}
+                    <CountUp start={0} end={175} duration={3} /> : null}
                     +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>GitHub<br /> Contributions</div>
