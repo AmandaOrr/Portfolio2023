@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 //images
 import Img1 from "../assets/anigen.png";
-import Img2 from "../assets/portfolio-img2.png";
+import Img2 from "../assets/metromeals.png";
 import Img3 from "../assets/sgcinsights.png";
 import Img4 from "../assets/portfolio-img1.png";
 import Img5 from "../assets/portfolio-img3.png";
@@ -17,7 +17,7 @@ const Work = () => {
     <section className="section" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
-          {/* Row 1 */}
+          {/* Col 1 */}
           <motion.div
             variants={fadeIn("right", 0.2)}
             initial="hidden"
@@ -60,7 +60,7 @@ const Work = () => {
             </div>
           </motion.div>
 
-          {/* Row 2 */}
+          {/* Col 2 */}
           <motion.div
             variants={fadeIn("left", 0.2)}
             initial="hidden"
@@ -80,11 +80,13 @@ const Work = () => {
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-accent">Category (UI/UX)</span>
+                <span className="text-accent">(React.js/Responsive Design)</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+              <a href="https://metromeals.netlify.app/" target="_blank">
+                  <span className="text-3xl text-white">Metro Meals</span>
+                </a>
               </div>
             </div>
 
@@ -109,7 +111,9 @@ const Work = () => {
               </div>
             </div>
           </motion.div>
-          {/* row 3 */}
+
+
+          {/* Col 3 */}
           <motion.div
             variants={fadeIn("left", 0.2)}
             initial="hidden"

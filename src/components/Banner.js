@@ -5,8 +5,8 @@ import Image from "../assets/avatarAO.svg";
 import {
   FaGithub,
   FaLinkedin,
-  FaArtstation,
-  FaDeviantart,
+  FaCodepen,
+  FaFileCode,
 } from "react-icons/fa";
 //type animation
 import { TypeAnimation } from "react-type-animation";
@@ -85,11 +85,17 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://github.com/AmandaOrr">
+              <a href="https://github.com/AmandaOrr" target="_blank" title="GitHub">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/amanda-orr-485210226/">
+              <a href="https://www.linkedin.com/in/amanda-orr-485210226/" target="_blank" title="LinkedIn">
                 <FaLinkedin />
+              </a>
+              <a href="" target="_blank" title="CodePen">
+                <FaCodepen />
+              </a>
+              <a href="" target="_blank" title="Replit">
+                <FaFileCode />
               </a>
             </motion.div>
           </div>
