@@ -23,7 +23,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-20 mb-10 lg:mb-0"
           >
             {/* text */}
             <div>
@@ -53,7 +53,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <a href="https://ani-gen.netlify.app/" target="_blank">
+                <a href="https://ani-gen.netlify.app/" target="_blank" rel="noreferrer">
                   <span className="text-3xl text-white">Ani-Gen</span>
                 </a>
               </div>
@@ -66,7 +66,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-20 mb-4"
+            className="flex-1 flex flex-col gap-y-5 mb-4"
           >
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -84,7 +84,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <a href="https://metromeals.netlify.app/" target="_blank">
+              <a href="https://metromeals.netlify.app/" target="_blank" rel="noreferrer">
                   <span className="text-3xl text-white">Metro Meals</span>
                 </a>
               </div>
@@ -107,61 +107,13 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white"><a href="https://sgcinsights.com/" target="_blank">SGC Insights</a></span>
+                <span className="text-3xl text-white"><a href="https://sgcinsights.com/" target="_blank" rel="noreferrer">SGC Insights</a></span>
               </div>
             </div>
           </motion.div>
 
 
-          {/* Col 3 */}
-          <motion.div
-            variants={fadeIn("left", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-20 mb-4"
-          >
-            {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={Img4}
-                alt=""
-              />
-              {/* pre-title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-accent">Category (UI/UX)</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
-            </div>
-
-            {/* 3 */}
-            {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={Img5}
-                alt=""
-              />
-              {/* pre-title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-accent">WordPress</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white"><a href="https://sgcinsights.com/" target="_blank">SGC Insights</a></span>
-              </div>
-            </div>
-          </motion.div>
+          
         </div>
       </div>
     </section>
@@ -169,3 +121,54 @@ const Work = () => {
 };
 
 export default Work;
+
+
+// {/* Col 3  add in this column when you complete the other projects*/}
+// <motion.div
+// variants={fadeIn("left", 0.2)}
+// initial="hidden"
+// whileInView={"show"}
+// viewport={{ once: false, amount: 0.3 }}
+// className="flex-1 flex flex-col gap-y-20 mb-4"
+// >
+// {/* image */}
+// <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+//   {/* overlay */}
+//   <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+//   {/* img */}
+//   <img
+//     className="group-hover:scale-125 transition-all duration-500"
+//     src={Img4}
+//     alt=""
+//   />
+//   {/* pre-title */}
+//   <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+//     <span className="text-accent">Category (UI/UX)</span>
+//   </div>
+//   {/* title */}
+//   <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+//     <span className="text-3xl text-white">Project Title</span>
+//   </div>
+// </div>
+
+// {/* 3 */}
+// {/* image */}
+// <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+//   {/* overlay */}
+//   <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+//   {/* img */}
+//   <img
+//     className="group-hover:scale-125 transition-all duration-500"
+//     src={Img5}
+//     alt=""
+//   />
+//   {/* pre-title */}
+//   <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+//   <span className="text-accent">Category (UI/UX)</span>
+//   </div>
+//   {/* title */}
+//   <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+//   <span className="text-3xl text-white">Project Title</span>
+//   </div>
+// </div>
+// </motion.div>
