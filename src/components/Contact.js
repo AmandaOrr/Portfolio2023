@@ -34,10 +34,9 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
             method="POST"
-            action="#"
             name='contact'
+            action="mailto:aorr77@gmail.com"
             data-netlify="true"
-            netlify
           >
             <input
               type="text"
