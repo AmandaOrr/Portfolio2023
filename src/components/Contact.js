@@ -37,6 +37,7 @@ const Contact = () => {
             action="#"
             name='contact'
             data-netlify="true"
+            netlify
           >
             <input
               type="text"
